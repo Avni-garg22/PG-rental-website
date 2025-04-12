@@ -1,0 +1,155 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+header {
+    background: rgba(69, 29, 5, 0.9);
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    background: #0ef;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #003366, #0055aa);
+    color: white;
+}
+
+/* PG List Section */
+.pg-list {
+    width: 100%;
+    padding: 80px 10%;
+    background: url('bgl.jpg') no-repeat center center/cover;
+    text-align: center;
+}
+
+.pg-list h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* PG Cards Container */
+.pg-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* PG Card */
+.pg-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 280px;
+    height: 400px; /* Fixed height for equal size */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* PG Card Hover Effect */
+.pg-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 238, 255, 1);
+}
+
+/* PG Card Image */
+.pg-card img {
+    width: 100%;
+    height: 180px; /* Ensures uniform size */
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* PG Card Title */
+.pg-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* PG Card Description */
+.pg-card p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* View Details Button */
+.pg-card a {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background: #0ef;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+.pg-card a:hover {
+    background: white;
+    color: black;
+    border: 1px solid #0ef;
+    box-shadow: 0 0 10px #0ef;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pg-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pg-card {
+        width: 90%;
+        height: auto;
+    }
+}
+
+.pg-list{
+    width: 100%;
+    padding: 80px 10%;
+    background: url('luxury.jpg') no-repeat center center/cover;
+    text-align: center;
+}

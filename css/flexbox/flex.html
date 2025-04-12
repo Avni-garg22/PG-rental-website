@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{ background-color: aquamarine;
+            margin: 0;
+        }
+        .box{
+                   background-color: burlywood;
+                   height: 800px; 
+                   /* width: 900px; */
+                   /* margin: 1px; */
+                   display: flex;
+                   flex-direction: row;
+                   align-items: center;
+                   align-content:end;
+                  /* justify-content: space-evenly; */
+                   justify-content: center;
+                   /* flex-flow: column wrap; */
+                    /* flex-direction: row-reverse; */
+                   /* flex-wrap: wrap;   */
+                   /* flex-wrap: wrap-reverse;  */
+
+        }
+        #b1{
+            background-color: red;
+            /* height: 30px; 
+            width: 50px;  */
+            padding: 20px;
+             /* margin: 20px; */
+            border: 2px solid black;
+            align-items: end;
+            flex-basis: 400px; /*for setting width*/
+            /* flex-grow: 1; */
+            /* flex-shrink:4; */
+        }
+        #b2{
+            background-color: blueviolet;
+            /* height: 30px; 
+            width: 50px; */
+            padding: 20px;
+            /* margin: 20px; */
+            border: 2px solid black;
+            /* flex-grow: 1; */
+            align-self: stretch;
+        }
+        #b3{
+            background-color: yellowgreen;
+            /* height: 30px; 
+            width: 50px; */
+            padding: 20px;
+            /* margin: 20px; */
+            border: 2px solid black;
+            /* flex-shrink: 4;
+            flex-grow: 5; */
+            align-self:end;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+    <div class="box1" id="b1">wow</div>
+    <div class="box2" id="b2">yeah</div>
+    <div class="box3" id="b3">hero</div>
+    </div>
+</body>
+</html>

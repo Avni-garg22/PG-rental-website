@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            border: 0;
+            box-sizing: border-box;
+        }
+
+        /* body{
+            height: 100%;
+            width:100%;
+        } */
+        .container{
+            height: 100vh;
+            width:100vw;
+           /* min-height: 700px; */
+            background-color: bisque;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{   background-color: aliceblue;
+            margin: 5px;
+                /* border: 5px solid black; */
+               height: 450px;
+               width:310px;
+               border-radius: 20px;
+               display:flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+              padding:15px;
+              gap: 10px;
+        }
+        .box img{
+            height: 180px;
+            /* width: 180px; */
+            border-radius: 10px;
+        }
+        /* .image{
+            background-color: aqua;
+            height:230px;
+            width:230px;
+            display:flex ;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+        } */
+
+        .box h2{
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .box p{
+            font-size: 1.3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <!-- <div class="image"> -->
+                <img src="QR.png" alt=" scan ">
+            <!-- </div> -->
+            
+           
+            <h2>
+                Improve your front end skills
+                by building projects
+           </h2>
+          
+            <p>
+                scan the QR code to visit Front end mentor
+                and take your coding skills to  next level.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

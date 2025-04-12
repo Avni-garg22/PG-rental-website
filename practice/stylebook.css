@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .jumbotron {
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+    background-size: cover;
+    color: white;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }

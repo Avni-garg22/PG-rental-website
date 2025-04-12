@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* internal css */
+        h1{
+            background-color: pink;
+            color:green;
+        }
+
+        /* !IMPORTANT keyword use to make this in all. 
+        whether there is inline still this will work */
+        p{
+             color: black !important; 
+        }
+
+        /* selector-ID */
+        #para{
+            text-align: center;
+        }
+
+        /* selector-class */
+        .pClass{
+               background-color: maroon;
+        }
+
+        /* selector group */
+        p#para,article{
+            text-align-last: right;
+        }
+
+    </style>
+
+    <!-- linking css and html (external css) -->
+     <link rel="stylesheet" href="css1.css">
+</head>
+
+<body>
+    <h1>This is experient on css inline external and internal</h1>
+
+    <p class="pClass">how to use inline external internasl is quite easy.
+        embark on 
+        journey of learning new Topic.
+        ow interesting is this to learn new languages,new concepts. </p>
+
+        <!-- inline css using style directly in body -->
+    <p class="pClass" style="color: blue">how to use inline external internasl
+         is quite easy. embark 
+        on journey of learning new Topic.
+        how interesting is this to learn new languages,new concepts.</p>
+
+    <p id="para">how to use inline external internasl is quite easy. embark on
+        journey of learning new Topic.<br>
+        how interesting is this to learn new languages,new concepts.</p>
+        
+        <article>
+            hello gi; sekhlia bahut ab toh. bs krti rhoaise hi
+            </article>
+</body>
+</html>

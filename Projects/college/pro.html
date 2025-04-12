@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG Rental Chandigarh</title>
+    <link rel="stylesheet" href="pro.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>PG Rentals in Chandigarh</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#listings">PG Listings</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Find the Perfect PG in Chandigarh</h2>
+        <input type="text" class="search-bar" placeholder="Search PGs by area or amenities...">
+    </section>
+    
+    <!-- PG Listings -->
+    <section id="listings" class="pg-list">
+        <h2>Available PGs</h2>
+        <div class="filters">
+            <select>
+                <option value="">Filter by Price</option>
+                <option value="low">Low to High</option>
+                <option value="high">High to Low</option>
+            </select>
+            <select>
+                <option value="">Filter by Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="unisex">Unisex</option>
+            </select>
+        </div>
+        
+        <div class="pg-container">
+            <div class="pg-item">
+                <img src="pg1.jpg" alt="PG Image">
+                <h3>Luxury PG for Girls</h3>
+                <p>Sector 36, Chandigarh - ₹8,000/month</p>
+                <button onclick="window.location.href='details.html'">View Details</button>
+            </div>
+            <div class="pg-item">
+                <img src="pg2.jpg" alt="PG Image">
+                <h3>Affordable PG for Boys</h3>
+                <p>Sector 36, Chandigarh - ₹6,500/month</p>
+                <button onclick="window.location.href='details.html'">View Details</button>
+            </div>
+            <!-- Add more PG cards here -->
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>What Our Residents Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p>"Best PG in the city! Highly recommended."</p>
+                <strong>- Rahul Sharma</strong>
+            </div>
+            <div class="testimonial">
+                <p>"Affordable and great facilities!"</p>
+                <strong>- Priya Mehta</strong>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 PG Rental Chandigarh | All Rights Reserved</p>
+        <div class="footer-links">
+            <a href="terms.html">Terms & Conditions</a>
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+    </footer>
+</body>
+</html>

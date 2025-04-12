@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ebook Platform</title>
+  <style>
+    /* Reset and basic styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    /* Navigation styles */
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    header nav a {
+      color: #fff;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    /* Hero Section (Homepage) */
+    .hero {
+      background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+      color: #fff;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      background-color: #e8491d;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+    }
+    /* Section Titles */
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+    /* Catalog Section */
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .book-item {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      width: 200px;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 5px;
+    }
+    .book-item img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    /* Book Details Section */
+    .book-details {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1rem;
+    }
+    .book-details img {
+      max-width: 300px;
+      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    .details {
+      max-width: 500px;
+      text-align: left;
+    }
+    .details h2 {
+      margin-bottom: 1rem;
+    }
+    .details p {
+      margin-bottom: 1rem;
+    }
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .grid {
+        flex-direction: column;
+        align-items: center;
+      }
+      .book-details {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#catalog">Catalog</a>
+      <a href="#details">Book Details</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section (Homepage) -->
+  <section class="hero" id="hero">
+    <h1>Welcome to the Ebook Platform</h1>
+    <p>Discover your next great read from our collection of ebooks.</p>
+    <a href="#catalog" class="btn">Browse Catalog</a>
+  </section>
+
+  <!-- Catalog Section -->
+  <section id="catalog">
+    <h2>Ebook Catalog</h2>
+    <div class="grid">
+      <!-- Example Book Item -->
+      <div class="book-item">
+        <img src="https://via.placeholder.com/150" alt="Learn HTML">
+        <h3>Learn HTML</h3>
+        <p>A beginner's guide to HTML.</p>
+        <a href="#details" class="btn">Details</a>
+      </div>
+      <div class="book-item">
+        <img src="https://via.placeholder.com/150" alt="CSS Mastery">
+        <h3>CSS Mastery</h3>
+        <p>Master the art of CSS for beautiful designs.</p>
+        <a href="#details" class="btn">Details</a>
+      </div>
+      <!-- Additional book items can be added here -->
+    </div>
+  </section>
+
+  <!-- Book Details Section -->
+  <section id="details">
+    <h2>Book Details</h2>
+    <div class="book-details">
+      <img src="https://via.placeholder.com/300" alt="Book Cover">
+      <div class="details">
+        <h2>Learn HTML</h2>
+        <p><strong>Author:</strong> John Doe</p>
+        <p>This ebook offers a comprehensive guide to HTML, from basic concepts to advanced topics. Perfect for beginners and professionals alike.</p>
+        <a href="#" class="btn">Download Ebook</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ebook Platform</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo a, .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+.pg-details {
+    text-align: center;
+    max-width: 800px;
+    margin: 120px auto 30px;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.pg-details h2 {
+    font-size: 28px;
+    color: #004080;
+    margin-bottom: 15px;
+}
+
+.pg-details img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.pg-info {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.student-info {
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-info h2 {
+    font-size: 24px;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    border: 1px solid #004080;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background: #004080;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background: #f0f8ff;
+}
+
+/* Contact Section */
+.contact-section {
+    text-align: center;
+    padding: 40px;
+    background: #e6f2ff;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #004080;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background: #004080;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #002244;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: rgba(69, 29, 5, 0.9);
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.pg1-details{
+    width: 100%;
+    padding: 0.5px 50px 0px 50px ;
+    background: url('luxury.jpg') no-repeat center center/cover;
+    text-align: center;
+}
